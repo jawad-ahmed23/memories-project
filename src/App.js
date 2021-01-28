@@ -17,6 +17,8 @@ const App = () => {
     dispatch(getPosts());
   }, [dispatch]);
 
+  console.log('hello world')
+
   console.log("hello");
 
   return (
